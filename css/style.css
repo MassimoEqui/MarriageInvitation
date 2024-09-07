@@ -1,0 +1,8 @@
+.flex-container {
+    display: flex;
+}
+
+.halfpage {
+    width: 50%;
+    padding: 5px;
+}
