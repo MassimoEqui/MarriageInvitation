@@ -1,8 +1,28 @@
+body {
+    background-color:antiquewhite;
+}
+
 .flex-container {
     display: flex;
 }
 
-.halfpage {
+.column-left {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
     width: 50%;
-    padding: 5px;
+}
+
+.column-right {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+
+.title-img {
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
 }
