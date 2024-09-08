@@ -35,8 +35,8 @@ body {
 .title-text {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    transform: translate(0%, -50%);
     font-family: 'Times New Roman', serif;
     text-shadow: 5px 5px 20px white,
                  5px -5px 20px white,
@@ -49,6 +49,7 @@ body {
     padding-bottom: 5px;
     padding-right: 5px;
     width: 50%;
+    min-width: 300px;
 }
 
 .column-right {
@@ -56,4 +57,5 @@ body {
     padding-bottom: 5px;
     padding-right: 5px;
     width: 50%;
+    min-width: 300px;
 }
