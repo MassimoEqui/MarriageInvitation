@@ -1,3 +1,7 @@
+:root {
+    --title-img-left-width: 70%;
+}
+
 body {
     background-color:antiquewhite;
 }
@@ -5,6 +9,29 @@ body {
 .flex-container {
     display: flex;
 }
+
+.title-img,
+.title-img-left,
+.title-img-right {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    object-fit: cover;
+}
+
+.title-img-left {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    object-fit: cover;
+    width: var(--title-img-left-width);
+}
+
+.title-img-right {
+    width: calc(100%-var(--title-img-left-width));
+}
+
+
 
 .column-left {
     padding-top: 5px;
@@ -18,11 +45,4 @@ body {
     padding-bottom: 5px;
     padding-right: 5px;
     width: 50%;
-}
-
-.title-img {
-    width: 50%;
-    padding: 0%;
-    margin: 0%;
-    border: 0%;
 }
