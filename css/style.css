@@ -17,6 +17,7 @@ body {
     margin: 0%;
     border: 0%;
     object-fit: cover;
+    opacity: 0.5;
 }
 
 .title-img-left {
@@ -31,7 +32,17 @@ body {
     width: calc(100%-var(--title-img-left-width));
 }
 
-
+.title-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', serif;
+    text-shadow: 5px 5px 20px white,
+                 5px -5px 20px white,
+                 -5px 5px 20px white,
+                -5px -5px 20px white;
+}
 
 .column-left {
     padding-top: 5px;
