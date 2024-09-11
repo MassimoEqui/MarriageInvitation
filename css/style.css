@@ -68,3 +68,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+p {
+    padding: 20px;
+}
