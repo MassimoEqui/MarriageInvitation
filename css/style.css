@@ -7,6 +7,20 @@ body {
     min-width: 500px;
 }
 
+p {
+    font-size: 24px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
 .title-img-container {
     display: flex;
     overflow: hidden;
@@ -75,8 +89,9 @@ p {
 }
 
 .map {
-    border-style:solid;
-    border-color:black;
-    border-width:10px;
-    margin:10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 25px;
+    margin: 10px;
 }
