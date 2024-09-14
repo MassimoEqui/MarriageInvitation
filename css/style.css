@@ -8,7 +8,7 @@ body {
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -68,7 +68,10 @@ h3 {
 }
 
 .column-right {
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 500px;
